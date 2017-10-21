@@ -1,0 +1,26 @@
+问题：
+  1:端口占用  就改config 里的index.js
+  2:更改打包的目的地 build-> webpack.base.conf.js
+  3:更改配置文件需要重新启动服务
+  4:meta:vp
+5:用什么就下什么  eg：npm install less less-loader --save-dev
+  eg:npm install axios --save
+
+
+轮播插件：
+  vue-awesome-swiper
+
+
+loading：
+
+
+
+上一期的答辩：
+  登录，注册，退出登录，地图，验证码，购物车，搜索，下拉刷新，上拉加载，歌曲
+大家都在强调数据结构
+
+一组 https://github.com/wangdeweiseven/homeMarking.git
+二组 https://github.com/SY930/07vue
+三组 https://github.com/PH-C/NeteaseCloudMusic.git
+四组 https://github.com/gavin103/3cmall
+五组 https://github.com/MissOcean/higo
