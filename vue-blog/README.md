@@ -14,7 +14,16 @@ morgan serve-favicon express-session connect-mongo mongoose connect-flash multer
 --save-dev === -D
 --save ===-S
 
+# 创建服务
 
+express mongoose
+
+#跑通路由
+```
+let express =require('express');
+let app=express()
+app.listen(8080)
+```
 
 
 
