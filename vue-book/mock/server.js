@@ -23,6 +23,27 @@ http.createServer(function (req,res) {
       let books=data.reverse().slice(0,9)
       res.end(JSON.stringify(books))
     })
+  }else if(pathname==='/api/book'){
+    //请求方法 读取出的是大写
+    let method=req.method;
+    let id=parseInt(query.id)//转换成数字类型
+    if(method==='GET'){
+      if(id){//获取一个
+
+      }else{//获取全部
+        read('./book.json',(books)=>{ //获取所有接口
+          res.end(JSON.stringify(books))
+        })
+      }
+    }else if(method==='POST'){
+
+    }else if(method==='PUT'){
+
+    }else if(method==='DELETE'){
+
+    }
+
+
   } else {
     res.end('404');
   }
