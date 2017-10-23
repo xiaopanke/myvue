@@ -2,7 +2,7 @@
     <div class="page">
       <MHeader title="首页"></MHeader>
       <div class="scroll-content">
-          <Swiper :swiperSlides="arr"></Swiper>
+          <Swiper :swiperSlides="slides"></Swiper>
           <h3>最新上架</h3>
           <ul class="hotlist" v-if="books.length">
             <li v-for="(book,index) in books">
@@ -25,20 +25,19 @@
         data(){
             return {
                 msg: 123,
-                arr:[],
+              slides:[],
               books:[]
             }
         },
         created(){
-          axios.get('/api/aliders').then((res)=>{
+          axios.get('/api/sliders').then((res)=>{
               console.log(res);
+            this.slides=res.data
           }).catch((err)=>{
               console.log(err)
           })
           axios.get('/api/hot').then((res)=>{
-              setTimeout(()=>{
-                this.books=res.data
-              },2000)
+            this.books=res.data
             console.log(res);
           }).catch((err)=>{
             console.log(err)

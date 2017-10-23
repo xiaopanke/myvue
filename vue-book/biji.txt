@@ -7,14 +7,6 @@
   eg:npm install axios --save
 
 
-轮播插件：
-  vue-awesome-swiper
-
-
-loading：
-
-
-
 上一期的答辩：
   登录，注册，退出登录，地图，验证码，购物车，搜索，下拉刷新，上拉加载，歌曲
 大家都在强调数据结构
@@ -22,5 +14,29 @@ loading：
 一组 https://github.com/wangdeweiseven/homeMarking.git
 二组 https://github.com/SY930/07vue
 三组 https://github.com/PH-C/NeteaseCloudMusic.git
-四组 https://github.com/gavin103/3cmall
+四组 ht
+轮播插件：
+  vue-awesome-swiper
+
+
+loading：
+
+
+tps://github.com/gavin103/3cmall
 五组 https://github.com/MissOcean/higo
+
+
+
+https://github.com/zhufengnodejs/interviews/blob/master/%E9%9D%A2%E8%AF%95%E9%A2%98.md
+https://github.com/DMQ/mvvm
+https://www.lagou.com/jobs/3196953.html
+
+
+https://github.com/canfoo/react-taopiaopiao
+https://github.com/canfoo/self-vue
+http://www.cnblogs.com/canfoo/p/6891868.html
+
+https://github.com/canfoo
+https://github.com/antgod
+https://github.com/antgod
+http://www.jianshu.com/p/ca1867413fa3
