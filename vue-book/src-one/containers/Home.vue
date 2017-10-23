@@ -36,20 +36,27 @@
           }).catch((err)=>{
               console.log(err)
           })
-          axios.get('/api/hot').then((res)=>{
-            this.books=res.data
-            console.log(res);
-          }).catch((err)=>{
-            console.log(err)
-          })
+          this.getHot()
         },
-        methods: {},
+        methods: {
+            getHot(){
+              axios.get('/api/hot').then((res)=>{
+                this.books=res.data
+                console.log(res);
+              }).catch((err)=>{
+                console.log(err)
+              })
+            }
+        },
         computed: {},
         components: {
           MHeader,
           Swiper,
           Loading
-        }
+        },
+      activated(){ //缓存后依然会走的函数
+        this.getHot()
+      }
     }
 </script>
 <style scoped lang="less">
