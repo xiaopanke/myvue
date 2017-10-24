@@ -8,7 +8,7 @@ npm init -y
 ```
 npm install body-parser cookie-parser debug ejs express
 morgan serve-favicon express-session connect-mongo mongoose connect-flash multer
- async -S
+ async bootstrap -S
 ```
 
 --save-dev === -D
@@ -18,13 +18,13 @@ morgan serve-favicon express-session connect-mongo mongoose connect-flash multer
 
 express mongoose
 
-#跑通路由
-```
+# 跑通路由
+
 let express =require('express');
 let app=express()
 app.listen(8080)
-```
 
+# 引入模板引擎
 
 
 
